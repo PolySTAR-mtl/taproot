@@ -41,8 +41,8 @@
         <gpio alias="OledJoystick" name="GpioA6">
             <adc name="Adc1" in="In6"></adc>
         </gpio>
-        <gpio alias="Buzzer" name="GpioH6">
-            <timer name="Timer12" channel="Ch1"></timer>
+        <gpio alias="Buzzer" name="GpioB15">
+            <timer name="Timer12" channel="Ch2"></timer>
         </gpio>
         <gpio alias="Laser" name="GpioG13"></gpio>
         <gpio alias="ImuHeater" name="GpioB5">
