@@ -148,14 +148,14 @@ using {{ pin_group_name }}s = SoftwareGpioPort<{% for pin in pins %}{{ pin_group
 {{ configure_pins("Initialize digital output pins", "DigitalOutPin", digital_out_pins) }}
 // gpio pins used for SPI communication to the onboard BMI088 IMU
 
-using ImuSck = GpioB3;
-using ImuMiso = GpioB4;
-using ImuMosi = GpioA7;
-using ImuCS1Accel = GpioA4;
-using ImuCS1Gyro = GpioB0;
-using ImuInt1Accel = GpioC4;
-using ImuInt1Gyro = GpioC5;
-using ImuHeater = GpioF6;
+using ImuSck = GpioB13;
+using ImuMiso = GpioC2;
+using ImuMosi = GpioC1;
+using ImuCS1Accel = GpioC0;
+using ImuCS1Gyro = GpioC3;
+using ImuInt1Accel = GpioE10;
+using ImuInt1Gyro = GpioE12;
+using ImuHeater = GpioB1;
 using ImuSpiMaster = SpiMaster1;
 
 #endif

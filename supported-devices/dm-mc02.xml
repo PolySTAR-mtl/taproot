@@ -45,7 +45,7 @@
             <timer name="Timer12" channel="Ch2"></timer>
         </gpio>
         <gpio alias="Laser" name="GpioG13"></gpio>
-        <gpio alias="ImuHeater" name="GpioB5">
+        <gpio alias="ImuHeater" name="GpioB1">
             <timer name="Timer3" channel="Ch2"></timer>
         </gpio>
         <gpio alias="Button" name="GpioB2"></gpio>
